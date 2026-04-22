@@ -15,14 +15,6 @@ It modifies the formatting of Japanese references, including matters such as:
 - journal formatting
 - other Japanese-specific output rules
 
-### Installation
-Once this style is available in the Zotero Style Repository, it can be installed from Zotero:
-1. Open **Edit** → **Preferences**
-2. Go to the **Cite** tab
-3. Click **Get additional styles...**
-4. Search for **JPA Publication Manual revised 2022 edition**
-5. Install the style
-
 ### Known limitation
 A known limitation remains regarding Japanese personal names.
 
@@ -67,14 +59,6 @@ If behavior differs from the manual in edge cases, priority has generally been g
 - タイトル周辺の句読点
 - 雑誌名の表示形式
 - その他、日本語文献特有の出力規則
-
-### 導入方法
-このスタイルが Zotero の Style Repository に登録されると、Zotero 本体から以下の手順でインストールできます。
-1. **編集** → **設定** を開く  
-2. **引用** タブを開く  
-3. **Get additional styles...** をクリックする  
-4. **JPA Publication Manual revised 2022 edition** を検索する  
-5. スタイルをインストールする  
 
 ### 既知の限界
 日本語著者名の表記には、なお既知の限界があります。
