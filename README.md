@@ -24,7 +24,9 @@ Once this style is available in the Zotero Style Repository, it can be installed
 ### Known limitation
 A known limitation remains regarding Japanese personal names.
 According to the JPA manual, a half-width space should be inserted between family name and given name in Japanese author names, for example:
+
 `山田 太郎`
+
 However, this behavior cannot be fully implemented through CSL alone under the standard Zotero / citeproc processing behavior. In other words, this CSL style cannot by itself guarantee automatic insertion of a half-width space between family name and given name for Japanese names in all cases.
 Therefore, this style should be understood as reproducing the JPA manual as closely as possible within standard CSL and Zotero behavior, while this specific point remains a technical limitation.
 
@@ -70,14 +72,16 @@ If behavior differs from the manual in edge cases, priority has generally been g
 ### 既知の限界
 日本語著者名の表記には、なお既知の限界があります。
 JPA の規定では、日本語著者名について、たとえば次のように姓と名の間に半角スペースを入れる必要があります。
+
 `山田 太郎`
+
 しかし、この挙動は、標準的な Zotero / citeproc の処理のもとでは、CSL だけで完全に実装することができません。言い換えると、この CSL スタイル単体では、日本語著者名の姓と名の間に半角スペースを自動的に入れる処理を、すべてのケースで保証することはできません。
 したがって、このスタイルは、標準的な CSL / Zotero の挙動の範囲内で JPA の規定を可能な限り再現するものであり、この点については技術的制約が残ることをご理解ください。
 
 ### CSL外での追加対応
 この姓名間スペースの問題については、Zotero の内部処理ファイルを修正することで対応可能です。ただし、それは CSL スタイル本体の範囲を超える作業であり、このスタイルの通常の導入手順には含まれません。
-その追加対応の詳細な手順については、以下を参照してください。
-https://note.com/preview/ne5d6781d3f46?prev_access_key=107fe677e4c5cb01f88c4b1f8178483b
+その追加対応の詳細な手順については、[こちら](https://note.com/preview/ne5d6781d3f46?prev_access_key=107fe677e4c5cb01f88c4b1f8178483b)を参照してください。
+
 この追加対応については、以下の点にご注意ください。
 - この対応は任意です  
 - 通常の利用にあたって必須ではありません  
