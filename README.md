@@ -30,8 +30,7 @@ Therefore, this style should be understood as reproducing the JPA manual as clos
 
 ### Optional workaround outside the CSL style
 It is possible to address the name-spacing issue by modifying Zotero's internal processing files. However, this requires changes outside the CSL style itself and is **not part of the normal installation procedure** for this style.
-A separate explanation of that workaround is available here:
-https://note.com/preview/ne5d6781d3f46?prev_access_key=107fe677e4c5cb01f88c4b1f8178483b
+A separate explanation of that workaround is available [here](https://note.com/preview/ne5d6781d3f46?prev_access_key=107fe677e4c5cb01f88c4b1f8178483b):
 
 Please note that:
 - this workaround is optional
