@@ -2,10 +2,12 @@
 
 ## English
 This CSL style is based on the *Publication Manual of the Japan Psychological Association* (日本心理学会『投稿・執筆の手びき』) and is intended for use in Zotero when writing Japanese-language psychology papers.
+
 In many respects, this style follows APA 7th edition. In particular, the formatting rules for English references are essentially the same as APA 7th. The main purpose of this style is therefore to adjust the formatting of Japanese references, which differ substantially from standard APA-style output.
 
 ### Scope
 This style is intended to reproduce the JPA manual as closely as possible within the standard CSL framework used by Zotero.
+
 It modifies the formatting of Japanese references, including matters such as:
 - punctuation
 - author delimiter style
@@ -23,15 +25,18 @@ Once this style is available in the Zotero Style Repository, it can be installed
 
 ### Known limitation
 A known limitation remains regarding Japanese personal names.
+
 According to the JPA manual, a half-width space should be inserted between family name and given name in Japanese author names, for example:
 
 `山田 太郎`
 
 However, this behavior cannot be fully implemented through CSL alone under the standard Zotero / citeproc processing behavior. In other words, this CSL style cannot by itself guarantee automatic insertion of a half-width space between family name and given name for Japanese names in all cases.
+
 Therefore, this style should be understood as reproducing the JPA manual as closely as possible within standard CSL and Zotero behavior, while this specific point remains a technical limitation.
 
 ### Optional workaround outside the CSL style
 It is possible to address the name-spacing issue by modifying Zotero's internal processing files. However, this requires changes outside the CSL style itself and is **not part of the normal installation procedure** for this style.
+
 A separate explanation of that workaround is available [here](https://note.com/preview/ne5d6781d3f46?prev_access_key=107fe677e4c5cb01f88c4b1f8178483b):
 
 Please note that:
